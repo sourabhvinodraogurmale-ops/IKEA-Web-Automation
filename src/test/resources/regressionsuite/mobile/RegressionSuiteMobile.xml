@@ -1,0 +1,47 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTestSuite">
+    <test name="RegressionTestMobile">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="browserSize" value="mobile"/>
+        <classes>
+            <class name="regression.RegressionTestCasesMobile">
+                <methods>
+                    <include name="verifyMobileCookiesNotDisplayedAfterRefresh"/>
+                    <include name="verifyMobileHomepageBannerCarouselSlideAutomatically"/>
+                    <include name="verifyMobileNewsDisplayedWhenSearched"/>
+                    <include name="verifyMobileNewsletterSubscriptionNavigation"/>
+                    <include name="verifyMobileSubscribeButtonInactiveWhenMandatoryFieldsInvalid"/>
+                    <include name="verifyMobileThankYouMessageForNewsLetterSubscription"/>
+                    <include name="verifyMobileCloseButtonInThankYouMessage"/>
+                    <include name="verifyMobileNewsLetterSubscriptionEmailSuccess"/>
+                    <include name="verifyMobileNewsLetterSubscriptionEmailMessage"/>
+                    <include name="verifyMobileNewsletterSignupFormValidation"/>
+                    <include name="verifyMobileTabKeyNavigation"/>
+                    <include name="verifyMobileSubscribeButtonDisabled"/>
+                    <include name="verifyMobilePromotionsListingPage"/>
+                    <include name="verifyMobilePromotionsPage"/>
+                    <include name="verifyMobilePromotionsPageSearchInput"/>
+                    <include name="verifyMobileShopListingPage"/>
+                    <include name="verifyMobileFAndBTenantListingPage"/>
+                    <include name="verifyMobileSpecialOffersVisibility"/>
+                    <include name="verifyMobileSpecialOffersDetailPage"/>
+                    <include name="verifyMobileVerifySpecialOffersFilter"/>
+                    <include name="verifyMobileVerifySpecialOffersSearchFunctionality"/>
+                    <include name="verifyMobileDownloadOptionsForSpecialOffers"/>
+                    <include name="verifyMobilePackageDealsCardPresentHomescreen"/>
+                    <include name="verifyMobilePackageDealsListingPage"/>
+                    <include name="verifyMobilePackageDealsDetailPage"/>
+                    <include name="verifyMobilePackageDealsDetailPageDownloadFromPlaystoreOptions"/>
+                    <include name="verifyMobileIkeaFamilyMembersOfferVisibility"/>
+                    <include name="verifyMobileIkeaFamilyMembersOfferDetailPage"/>
+                    <include name="verifyMobileVerifyIkeaFamilyMembersOffersFilter"/>
+                    <include name="verifyMobileVerifyIkeaFamilyMembersOffersSearchFunctionality"/>
+                    <include name="verifyShowMoreButtonDisplaysMoreCards"/>
+                </methods>
+            </class>
+            <!-- Add more classes or methods if needed -->
+        </classes>
+    </test>
+
+
+</suite>

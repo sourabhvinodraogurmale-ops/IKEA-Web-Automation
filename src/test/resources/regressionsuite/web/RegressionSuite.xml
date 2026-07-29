@@ -1,0 +1,74 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="RegressionTestDesktop">
+        <parameter name="browser" value="chrome" />
+        <parameter name="browserSize" value="desktop"/>
+        <classes>
+            <class name="regression.RegressionTestCases">
+                <methods>
+                    <include name="verifyWebCookiesOptionsAndButtons"/>
+                    <include name="verifyWebCookiesSettingOption"/>
+                    <include name="verifyWebCookiesAcceptAllOption"/>
+                    <include name="verifyWebCookiesNotDisplayedAfterRefresh"/>
+                    <include name="verifyWebMpMenuLogoClickable"/>
+                    <include name="verifyWebHomepageBannerCarouselSlideAutomatically"/>
+                    <include name="verifyWebTappingHomepageMainBannerOpensExpectedPage"/>
+                    <include name="verifyWebTenantsDisplayedWhenSearched"/>
+                    <include name="verifyWebNewsDisplayedWhenSearched"/>
+                    <include name="verifyWebNewsletterSubscriptionNavigation"/>
+                    <include name="verifyWebNewsletterSubscriptionFields"/>
+                    <include name="verifyWebSubscribeButtonActivation"/>
+                    <include name="verifyWebSubscribeButtonInactiveWhenMandatoryFieldsInvalid"/>
+                    <include name="verifyWebThankYouMessageForNewsLetterSubscription"/>
+                    <include name="verifyWebCloseButtonInThankYouMessage"/>
+                    <include name="verifyingWebCAPTCHAFunctionality"/>
+                    <include name="verifyWebNewsLetterSubscriptionEmailMessage"/>
+                    <include name="verifyWebNewsletterSignupFormValidation"/>
+                    <include name="verifyWebTabKeyNavigation"/>
+                    <include name="verifyWebSubscribeButtonDisabled"/>
+                    <include name="verifyWebRefreshButtonClearsSubscriptionFields"/>
+                    <include name="verifyWebPromotionsListingPage"/>
+                    <include name="verifyWebPromotionsPage"/>
+                    <include name="verifyWebPromotionsPageSearchInput"/>
+                    <include name="verifyWebHomepageIkeaProductsVisibility"/>
+                    <include name="verifyWebHomepageIkeaCardCarouselSlideAutomatically"/>
+                    <include name="VerifyWebHomepageIkeaCardNavigation"/>
+                    <include name="verifyWebIkeaProductsVisibilityInsideIkeaDetailPage"/>
+                    <include name="verifyWebIkeaProductsAvailableForViewingAndTheProductListing"/>
+                    <include name="verifyWebIkeaProductListingNavigation"/>
+                    <include name="verifyWebShopListingPage"/>
+                    <include name="verifyWebFAndBTenantListingPage"/>
+                    <include name="verifyWebFAndBFilterVisibilityOnDetailPage"/>
+                    <include name="verifyWebFAndBFilterClickableOnDetailPage"/>
+                    <include name="verifyWebSpecialOffersVisibility"/>
+                    <include name="verifyWebSpecialOffersDetailPage"/>
+                    <include name="verifyWebVerifySpecialOffersFilter"/>
+                    <include name="verifyWebVerifySpecialOffersSearchFunctionality"/>
+                    <include name="verifyWebDownloadOptionsForSpecialOffers"/>
+                    <include name="verifyWebPackageDealsCardPresentHomescreen"/>
+                    <include name="verifyWebPackageDealsListingPage"/>
+                    <include name="verifyWebPackageDealsDetailPage"/>
+                    <include name="verifyWebPackageDealsDetailPageDownloadFromPlaystoreOptions"/>
+                    <include name="verifyWebIkeaFamilyMembersOfferVisibility"/>
+                    <include name="verifyWebIkeaFamilyMembersOfferDetailPage"/>
+                    <include name="verifyWebVerifyIkeaFamilyMembersOffersFilter"/>
+                    <include name="verifyWebVerifyIkeaFamilyMembersOffersSearchFunctionality"/>
+                    <include name="verifyWebNewsLetterSubscriptionEmailSuccess"/>
+                    <include name="VerifyUserNameInInputFieldDigit"/>
+                    <include name="VerifyUserNameSpecialchar"/>
+                    <include name="VerifySpacehyphenandapostrophetosupportcompoundnames"/>
+                    <include name="VerifyalltheLettersfromallalphabetssupportedNewsletterform"/>
+                    <include name="VerifycontactUserNameString"/>
+                    <include name="verifyingskipallfields"/>
+                    <include name="VerifycontactMessage"/>
+                    <include name="VerifycontactUserNameDigit"/>
+
+                </methods>
+            </class>
+            <!-- Add more classes or methods if needed -->
+        </classes>
+    </test>
+
+
+
+</suite>

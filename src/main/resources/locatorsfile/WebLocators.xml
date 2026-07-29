@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locatorxml>
+    <common>
+        <ElementInfo Name="eventstext" Type="xpath" Description="">//h2[@class='font-title' and text()='{text}']</ElementInfo>
+        <ElementInfo Name="eventslink" Type="xpath" Description="">//a[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="eventsheading" Type="xpath" Description="">//h1[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="shopstext" Type="xpath" Description="">//h2[@class='font-title' and text()='{text}']</ElementInfo>
+        <ElementInfo Name="shopslink" Type="xpath" Description="">//a[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="shopsheading" Type="xpath" Description="">//h1[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="foodandbeveragelink" Type="xpath" Description="">//a[contains(text(), "{text}") or contains(text(), "Eat &amp; Drink")]</ElementInfo>
+        <ElementInfo Name="foodandbeverageheading" Type="xpath" Description="">//h1[contains(text(), "{text}") or contains(text(), "Eat &amp; Drink")]</ElementInfo>
+        <ElementInfo Name="tenantstext" Type="xpath" Description="">//h2[@class='font-title' and text()='{text}']</ElementInfo>
+        <ElementInfo Name="tenantsheading" Type="xpath" Description="">//h1[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="newspagestext" Type="xpath" Description="">//h2[@class='font-title' and text()='{text}']</ElementInfo>
+        <ElementInfo Name="newspagesheading" Type="xpath" Description="">//h1[contains(text(), "{text}")]</ElementInfo>
+        <ElementInfo Name="serviceslink" Type="xpath" Description="">//a[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="servicesheading" Type="xpath" Description="">//h1[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="breadcrumbtrail" Type="xpath" Description="">//a[@itemprop='item']/span</ElementInfo>
+        <ElementInfo Name="footerlinks" Type="xpath" Description="">//div[contains(@class," text-bodys ")]//a[contains(@class,"hover:text-text-light hover:underline")]</ElementInfo>
+        <ElementInfo Name="newsletterclosebutton" Type="xpath" Description="">//button[contains(@class, ' rounded-full bg-neutral-grey-100') and contains(@class, 'right-4')]</ElementInfo>
+        <ElementInfo Name="homepageclosebutton" Type="xpath" Description="">//button[@aria-label='close']</ElementInfo>
+        <ElementInfo Name="bannernextbutton" Type="xpath" Description="">//button[@type='button' and @title='Next']//*[name()='svg']</ElementInfo>
+
+    </common>
+
+    <HomePage>
+        <ElementInfo Name="acceptallcookies" Type="xpath" Description="">//button[@id="onetrust-accept-btn-handler"]</ElementInfo>
+        <ElementInfo Name="rejectallcookies" Type="xpath" Description="">//button[@id="onetrust-reject-all-handler"]</ElementInfo>
+        <ElementInfo Name="rejectallcookiessettings" Type="xpath" Description="">//button[@class="ot-pc-refuse-all-handler"]</ElementInfo>
+        <ElementInfo Name="cookiessetting" Type="xpath" Description="">//button[@id="onetrust-pc-btn-handler"]</ElementInfo>
+        <ElementInfo Name="opensearch" Type="xpath" Description="">//button[@aria-label="Open search"]</ElementInfo>
+        <ElementInfo Name="searchinputbox" Type="xpath" Description="">//input[@type='search']</ElementInfo>
+        <ElementInfo Name="searchsubmit" Type="xpath" Description="">//button[@data-transaction-name="search submit"]</ElementInfo>
+        <ElementInfo Name="mainmenu" Type="xpath" Description="">//button[@aria-label='Open main menu']</ElementInfo>
+        <ElementInfo Name="bannerheading" Type="xpath" Description="">//h1[contains(@class, 'text-headingxl')]</ElementInfo>
+        <ElementInfo Name="openbanner" Type="xpath" Description="">//h1/following-sibling::a</ElementInfo>
+        <ElementInfo Name="nextbannerbutton" Type="xpath" Description="">//button[@title="Next"]</ElementInfo>
+        <ElementInfo Name="previousbannerbutton" Type="xpath" Description="">//button[@title="Previous"]</ElementInfo>
+        <ElementInfo Name="meetingplacelogohomepage" Type="xpath" Description="">//img[@alt='Logotype']</ElementInfo>
+        <ElementInfo Name="hompageikeacards" Type="xpath" Description="">//div[@class='block animate-fadeIn']//div[contains(@class, 'line-clamp-1')]</ElementInfo>
+        <ElementInfo Name="buyatikeabtn" Type="xpath" Description="">//div[@class='block animate-fadeIn']//button[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="buyatikeabtndetailpage" Type="xpath" Description="">//button[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="searchresultspageheading" Type="xpath" Description="">//*[contains(text(),"{text}")]</ElementInfo>
+        <ElementInfo Name="visiblesearchedresults" Type="xpath" Description="">//ul[@class='sui-results-container']</ElementInfo>
+        <ElementInfo Name="homepagecards" Type="xpath" Description="">//a//div//p[contains(@class, 'text-bodym false')]/parent::*/h2</ElementInfo>
+
+    </HomePage>
+
+    <Tenant>
+        <ElementInfo Name="subtenants" Type="xpath" Description="">//*[@class="text-sm mt-1 font-title font-bold"]</ElementInfo>
+        <ElementInfo Name="subevents" Type="xpath" Description="">//div[contains(@class, 'mb-auto')]//h2[contains(@class, 'text-headings')]</ElementInfo>
+        <ElementInfo Name="subnews" Type="xpath" Description="">//h2[contains(@class, 'font-title') and contains(@class, 'text-headingm') and contains(@class, 'text-brand-white')]</ElementInfo>
+        <ElementInfo Name="viewonmap" Type="xpath" Description="">//a[text()='{text}']</ElementInfo>
+        <ElementInfo Name="detailedpageheading" Type="xpath" Description="">//h1[contains(@class, 'text-headingl')]</ElementInfo>
+        <ElementInfo Name="searchinputfield" Type="xpath" Description="">//input</ElementInfo>
+        <ElementInfo Name="ikea" Type="xpath" Description="">//div[contains(translate(text(), 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'), 'IKEA')]</ElementInfo>
+        <ElementInfo Name="nosearchmatchesmsg" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="noresultforsearch" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="selectcategorydropdown" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="listitem" Type="xpath" Description="">//li[@role='listitem']</ElementInfo>
+        <ElementInfo Name="allfilters" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="mobileallfiltersicon" Type="xpath" Description="">(//*[@aria-label='Show filters']/..)[3]</ElementInfo>
+
+<!--        <ElementInfo Name="clearall" Type="xpath" Description="">//h2[@class='mb-5 font-title text-headingxl text-neutral-grey-700 lg:mb-6']</ElementInfo>-->
+        <ElementInfo Name="clearall" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="visiblenumberonfilter" Type="xpath" Description="">//div[contains(@class, 'relative')]/span</ElementInfo>
+        <ElementInfo Name="showmore" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="filters" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+<!--        <ElementInfo Name="filters" Type="xpath" Description="">//h2[@class='mb-5 font-title text-headingxl text-neutral-grey-700 lg:mb-6']</ElementInfo>-->
+
+        <ElementInfo Name="category" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="showresult" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="filtercategories" Type="xpath" Description="">//span[contains(@class, 'cursor-pointer') and contains(@class, 'rounded-lg') and contains(@class, 'bg-brand-white')]</ElementInfo>
+        <ElementInfo Name="additionalperkscategories" Type="xpath" Description="">//*[text()="{text}"]/following-sibling::div/span</ElementInfo>
+        <ElementInfo Name="giftcardicon" Type="xpath" Description="">//*[@clip-path='url(#gift-card-icon_svg__a)']</ElementInfo>
+        <ElementInfo Name="filterclosebutton" Type="xpath" Description="">//div[@id='side-modal-content']/button</ElementInfo>
+        <ElementInfo Name="offers" Type="xpath" Description="">//span[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="offersvisualindicator" Type="css" Description="">svg circle[fill="#FFDB00"]</ElementInfo>
+        <ElementInfo Name="swedishdeli" Type="xpath" Description="">//*[text()='Swedish deli']</ElementInfo>
+        <ElementInfo Name="explorer" Type="xpath" Description="">//a[text() = "Explorer"]</ElementInfo>
+        <ElementInfo Name="google-pdf" Type="xpath" Description="">//pdf-viewer</ElementInfo>
+        <ElementInfo Name="menushopsheading" Type="xpath" Description="">//*[text()='Lojas e Ofertas']</ElementInfo>
+        <ElementInfo Name="meetingplacelogoshops" Type="xpath" Description="">//div[@class='grid w-full grid-cols-11 gap-5 lg:mt-6']//img</ElementInfo>
+        <ElementInfo Name="meetingplacenameandtodaysopeningtimeshops" Type="xpath" Description="">//*[contains(@class, 'lg:block')]//*[contains(text(), '{text}')]</ElementInfo>
+        <ElementInfo Name="ikeaProducts" Type="xpath" Description="">//*[contains(@class, 'ikea') and contains(@class, 'flex')]</ElementInfo>
+        <ElementInfo Name="showingnumbersforvisiblecards" Type="xpath" Description="">//div[contains(text(), 'A apresentar')]</ElementInfo>
+        <ElementInfo Name="filternameondetailpage" Type="xpath" Description="">//span[contains(@class, 'cursor-pointer') and contains(@class, 'rounded-xl')]</ElementInfo>
+
+    </Tenant>
+
+    <Menu>
+        <ElementInfo Name="offerslink" Type="xpath" Description="">//a[contains(text(), '{text}')]</ElementInfo>
+        <ElementInfo Name="offersheading" Type="xpath" Description="">//h1[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="newslettersubscriptionlink" Type="xpath" Description="">//a[contains(text(), '{text}')]</ElementInfo>
+        <ElementInfo Name="joinournewsletterheading" Type="xpath" Description="">//h2[@class='mb-4 font-title text-headingl ']</ElementInfo>
+        <!--        <ElementInfo Name="joinournewsletterheading" Type="xpath" Description="">//h2[contains(text(), 'newsletter')]</ElementInfo>-->
+<!--        <ElementInfo Name="joinournewsletterheadingsv" Type="xpath" Description="">//h2[contains(text(), 'Dags för en lite mer Livli inkorg?')]</ElementInfo>-->
+
+        <ElementInfo Name="nameinputfield" Type="xpath" Description="">//input[@name='name']</ElementInfo>
+        <ElementInfo Name="emailinputfield" Type="xpath" Description="">//input[@name='email']</ElementInfo>
+        <ElementInfo Name="confirmemailinputfield" Type="xpath" Description="">//input[@name='validateEmail']</ElementInfo>
+        <ElementInfo Name="checkbox" Type="xpath" Description="">//input[@type='checkbox']/following-sibling::span</ElementInfo>
+        <ElementInfo Name="enabledsubscribebutton" Type="xpath" Description="">//button[@type='submit' and not(@disabled)]</ElementInfo>
+        <ElementInfo Name="disabledsubscribebutton" Type="xpath" Description="">//button[@type='submit' and (@disabled)]</ElementInfo>
+
+        <ElementInfo Name="missingnameerrmsg" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="missingemailerrmsg" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="confirmemailerrmsg" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="newsletterthankyou!heading" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="closebutton" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="floorplanlink" Type="xpath" Description="">//a[text()="{text}" or text()="Floor map"]</ElementInfo>
+        <ElementInfo Name="floorplaninput" Type="xpath" Description="">//input[@id='floorplan-input']</ElementInfo>
+        <ElementInfo Name="floorplanservice" Type="xpath" Description="">//button[div[contains(text(), '{text}')]]</ElementInfo>
+        <ElementInfo Name="floorplanserviceicon" Type="xpath" Description="">//button[div[contains(text(), '{text}')]]/div/*[1]</ElementInfo>
+        <ElementInfo Name="closemenubutton" Type="xpath" Description="">//button//span[text()='Close menu']</ElementInfo>
+        <ElementInfo Name="meetingplacelogomenu" Type="xpath" Description="">//div[contains(@class,'lg:block')]//img</ElementInfo>
+        <ElementInfo Name="youhavetoprovideyourname" Type="xpath" Description="">//*[@id="side-modal-body"]/form/div[1]/p</ElementInfo>
+        <ElementInfo Name="Contactlink" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="Contactus" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="contactusSubmit" Type="xpath" Description="">//button[@type="submit"]</ElementInfo>
+        <ElementInfo Name="contactnameinputfield" Type="xpath" Description="">//input[@name='name']</ElementInfo>
+        <ElementInfo Name="contactemailinputfield" Type="xpath" Description="">//input[@name='email']</ElementInfo>
+        <ElementInfo Name="contactconfirmemailinputfield" Type="xpath" Description="">//input[@name='validateEmail']</ElementInfo>
+        <ElementInfo Name="contyouhavetoprovideyourname" Type="xpath" Description="">//*[contains(text(), "{You have to provide your name}")]</ElementInfo>
+        <ElementInfo Name="contacphoneinputfield" Type="xpath" Description="">//input[@name='phoneNumber']</ElementInfo>
+        <ElementInfo Name="contactusMessageinputfield" Type="xpath" Description="">//textarea[@name='message']</ElementInfo>
+        <ElementInfo Name="Youmustprovideamessage" Type="xpath" Description="">//*[contains(text(),"{text}")]</ElementInfo>
+        <ElementInfo Name="disablcontactussubmitbebutton" Type="xpath" Description="">//button[@type='submit' and (@disabled)]</ElementInfo>
+    </Menu>
+
+    <Services>
+        <ElementInfo Name="subServices" Type="xpath" Description="">//a[contains(@class, 'group flex') and contains(@class, 'cursor-pointer')]</ElementInfo>
+        <ElementInfo Name="readmore" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="readless" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+    </Services>
+
+    <Mobile>
+        <ElementInfo Name="tenantscardmobile" Type="xpath" Description="">//*[contains(@class, 'mt-5 grid gap-5') and contains(@class, 'grid-cols-1')]</ElementInfo>
+        <ElementInfo Name="menushopsbutton" Type="xpath" Description="">//button/span[contains(text(),"{text}")] | //button/span[contains(text(),"Store")]</ElementInfo>
+        <ElementInfo Name="menufandbbutton" Type="xpath" Description="">//button/span[contains(text(),"{text}")] | //button/span[contains(text(),"Store")]</ElementInfo>
+
+        <ElementInfo Name="menuoccasionsbutton" Type="xpath" Description="">//button/span[contains(text(),"Occasions")] | //button/span[contains(text(),"Store")]</ElementInfo>
+        <ElementInfo Name="searchinputfieldmobile" Type="xpath" Description="">//div[contains(@class, 'sticky')]//input</ElementInfo>
+    </Mobile>
+
+    <Footer>
+        <ElementInfo Name="newsletterfooterbutton" Type="xpath" Description="">//button[contains(text(), 'Newsletter')]</ElementInfo>
+    </Footer>
+
+    <PromotionAndOffers>
+        <ElementInfo Name="offersorpromotionlists" Type="xpath" Description="">//*[@class="px-5 font-title text-headingm text-text-default lg:text-headings xl:text-headingm break-words"]</ElementInfo>
+        <ElementInfo Name="specialoffers" Type="xpath" Description="">//div[text()="{text}" and contains(@class, "text-text-sticker-green")]</ElementInfo>
+        <ElementInfo Name="specialoffersfilter" Type="xpath" Description="">//span[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="specialofferscardtitle" Type="xpath" Description="">//div[text()="{text}"]/../h2</ElementInfo>
+        <ElementInfo Name="specialofferscarddate" Type="xpath" Description="">//div[text()="{text}"]/following-sibling::div</ElementInfo>
+        <ElementInfo Name="specialoffersdetailpagetitle" Type="xpath" Description="">//h1</ElementInfo>
+        <ElementInfo Name="specialoffersdetailpagedate" Type="xpath" Description="">//div[text()="{text}"]/following-sibling::div[1]</ElementInfo>
+        <ElementInfo Name="downloadfromplaystore" Type="xpath" Description="">//a[contains(@href, 'play.google.com/store/apps/details?id=com.ingka.livatapp')]</ElementInfo>
+        <ElementInfo Name="ikeafamilymemberoffer" Type="xpath" Description="">//div[text()="{text}" and contains(@class, "text-text-sticker-blue")]</ElementInfo>
+        <ElementInfo Name="ikeafamilymemberfilter" Type="xpath" Description="">//span[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="ikeafamilymembercardtitle" Type="xpath" Description="">//div[text()="{text}"]/../h2</ElementInfo>
+        <ElementInfo Name="ikeafamilymembercarddate" Type="xpath" Description="">//div[text()="{text}"]/following-sibling::div</ElementInfo>
+        <ElementInfo Name="ikeafamilymemberdetailpagetitle" Type="xpath" Description="">//h1</ElementInfo>
+        <ElementInfo Name="ikeafamilymemberdetailpagedate" Type="xpath" Description="">//div[text()="{text}"]/following-sibling::div[1]</ElementInfo>
+    </PromotionAndOffers>
+
+    <PackageDeals>
+        <ElementInfo Name="packagedealscard" Type="xpath" Description="">//h2[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="packagedealslink" Type="xpath" Description="">//a[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="packageofferslistcardtitle" Type="xpath" Description="">//a[contains(@class, 'animate-fadeIn')]//div[contains(@class, 'line-clamp-2')]</ElementInfo>
+        <ElementInfo Name="packageofferslist" Type="xpath" Description="">//div[contains(@class, 'line-clamp-2')]/ancestor::a[contains(@class, 'animate-fadeIn')]</ElementInfo>
+        <ElementInfo Name="packagedealslistingpageheading" Type="xpath" Description="">//h1[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="packagedealdetailpagetitle" Type="xpath" Description="">//h1</ElementInfo>
+        <ElementInfo Name="packagedealdates" Type="xpath" Description="">//div[contains(@class, 'h-[24px]')]</ElementInfo>
+    </PackageDeals>
+    <ProfilePage>
+        <ElementInfo Name="profile" Type="xpath" Description="">//button[@id="profile-selector-trigger-button"]</ElementInfo>
+        <ElementInfo Name="Continue" Type="xpath" Description="">//button[@id="next"]</ElementInfo>
+        <ElementInfo Name="profilesignup" Type="xpath" Description="">//*[contains(text(),"{text}")]</ElementInfo>
+        <ElementInfo Name="ProfileHeading" Type="xpath" Description="">//h2[text()="Profile"]</ElementInfo>
+        <ElementInfo Name="nameinputfieldprofile" Type="xpath" Description="">//input[@id="signInNamePhoneEmail"]</ElementInfo>
+        <ElementInfo Name="profilepassword" Type="xpath" Description="">//input[@id="password"]</ElementInfo>
+        <ElementInfo Name="Log in" Type="xpath" Description="">//button[@id="next"]</ElementInfo>
+        <ElementInfo Name="Magic Link" Type="xpath" Description="">//a[@id="MagicLinkExchange"]</ElementInfo>
+        <ElementInfo Name="Loginsuccess" Type="xpath" Description="">//div[text()="Qt"]</ElementInfo>
+        <ElementInfo Name="profileemail" Type="xpath" Description="">//input[@id="login"]</ElementInfo>
+        <ElementInfo Name="enter" Type="xpath" Description="">//button[@title="Check Inbox @yopmail.com"]</ElementInfo>
+        <ElementInfo Name="Magiclinkmail" Type="xpath" Description="">//Strong[text()="Magic Link"]/../..</ElementInfo>
+        <ElementInfo Name="profilemodify" Type="xpath" Description="">//a[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="profilemodifyclick" Type="xpath" Description="">//button[1]/div</ElementInfo>
+        <ElementInfo Name="Profilemodifyclickname" Type="xpath" Description="">/html/body/div/div[2]/div[2]/button[1]/div/div[1]/p</ElementInfo>
+        <ElementInfo Name="updatename" Type="xpath" Description="">//input[@id="«r1»"]</ElementInfo>
+        <ElementInfo Name="profilemodifysave" Type="xpath" Description="">//button[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="profileLogout" Type="xpath" Description="">//a[text()="{text}"]</ElementInfo>
+        <ElementInfo Name="profile Login heading verification" Type="xpath" Description="">//*[contains(text(),"{text}")]</ElementInfo>
+        <ElementInfo Name="Special Offer" Type="xpath" Description="">//span[text()="Special Offer"]</ElementInfo>
+        <ElementInfo Name="ClaimOffer" Type="xpath" Description="">//button[text()="Claim Offer"]</ElementInfo>
+        <ElementInfo Name="IKEAofferclick" Type="xpath" Description="">//div[text()="IKEA"]</ElementInfo>
+    </ProfilePage>
+<globalSearch>
+    <ElementInfo Name="globalSearchIkeaheading" Type="xpath" Description="">(//ul[@class="sui-results-container"]//h2)[1]</ElementInfo>
+    <ElementInfo Name="globalSearchIkeaheadingDetailsPage" Type="xpath" Description="">//h1[@class="mb-2 font-title text-headingl text-text-default lg:text-headingxxl"]</ElementInfo>
+
+</globalSearch>
+
+    <Mail>
+        <ElementInfo Name="subscriptionconfirmationmail" Type="xpath" Description="">//*[contains(text(), '{text}')]</ElementInfo>
+        <ElementInfo Name="mailcontentheading" Type="xpath" Description="">//*[text()="{text}"]</ElementInfo>
+    </Mail>
+</locatorxml>

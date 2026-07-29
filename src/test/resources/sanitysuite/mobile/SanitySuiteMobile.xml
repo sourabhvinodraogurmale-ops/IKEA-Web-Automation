@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SanitySuite">
+    <test name="SanityTestMobile">
+        <parameter name="browser" value="chrome" />
+        <parameter name="browserSize" value="mobile"/>
+        <classes>
+            <class name="sanity.SanityTestCasesMobile">
+                <methods>
+                    <include name="verifyMobileHomepageBannerCarouselSlideAutomatically"/>
+                    <include name="verifyMobileEventsDisplayedWhenSearched"/>
+                    <include name="verifyMobileShopsDisplayedWhenSearched"/>
+                    <include name="verifyMobileTenantsDisplayedWhenSearched"/>
+                    <include name="verifyMobileNewsDisplayedWhenSearched"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="SanityTestDesktop">
+        <parameter name="browser" value="chrome" />
+        <parameter name="browserSize" value="desktop"/>
+        <classes>
+            <class name="sanity.SanityTestCases">
+                <methods>
+                    <include name="verifyCookiesSettingOption"/>
+                    <include name="verifyCookiesAcceptAllOption"/>
+                    <include name="verifyCookiesRejectAllOption"/>
+                    <include name="verifyBannerNextButtons"/>
+                    <include name="verifyWebEventsDisplayedWhenSearched"/>
+                    <include name="verifyWebShopsDisplayedWhenSearched"/>
+                    <include name="verifyWebTenantsDisplayedWhenSearched"/>
+                    <include name="verifyWebNewsDisplayedWhenSearched"/>
+                    <include name="verifyingSubShopsAvailable"/>
+                    <include name="verifyingSubEatAndDrinksAvailable"/>
+                    <include name="verifyClickingTenantCard"/>
+                    <include name="verifyViewOnMapOptionDisplayed"/>
+                    <include name="verifyReadMoreAndReadLessOption"/>
+                    <include name="verifyShopListingPage"/>
+                    <include name="verifyTappingHomepageMainBannerOpensExpectedPage"/>
+                    <include name="verifySubscribeButtonActivation"/>
+                    <include name="verifyCloseButtonInThankYouMessage"/>
+                    <include name="verifyWebSubscribeButtonInactiveWhenMandatoryFieldsInvalid"/>
+                    <include name="verifyFiltersSidebar"/>
+                    <include name="verifyClearAllSeeResultsAndCloseButtons"/>
+                    <include name="verifyShopsWithOffersIndicator"/>
+                    <include name="verifyWebPromotionsPage"/>
+                    <include name="verifyFoodAndBeverageExplorerPdfOpened"/>
+                    <include name="verifyServicesLinkIconSizeOnHover"/>
+                    <include name="verifyGlobalSearchIkea"/>
+                    <include name="verifyGlobalSearchServicename"/>
+                    <include name="VerifyUserNameSpecialchar"/>
+                    <include name="VerifySpacehyphenandapostrophetosupportcompoundnames"/>
+                    <include name="VerifycontactUserNamestring"/>
+                    <include name="VerifyalltheLettersfromallalphabetssupportedNewsletterform"/>
+                    <include name="verifyGlobalSearchShopHM"/>
+                    <include name="verifyingCAPTCHAFunctionality"/>
+                </methods>
+            </class>
+            <!-- Add more classes or methods if needed -->
+        </classes>
+    </test>
+
+
+
+</suite>

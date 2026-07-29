@@ -1,0 +1,52 @@
+{
+  "MeetingPlaces": {
+    "marShoppingMatosinhosPt": {
+      "url": "https://www.marshopping.com/matosinhos/pt"
+    },
+    "livatHammersmithEn": {
+      "url": "https://www.livat.com/hammersmith/en"
+    },
+    "livatHammersmithTestEn": {
+      "url": "https://witty-tree-03d027703.2.azurestaticapps.net/hammersmith/en"
+    },
+    "marShoppingAlgarveEn": {
+      "url": "https://www.marshopping.com/algarve/en"
+    },
+    "marShoppingAlgarvePt": {
+      "url": "https://www.marshopping.com/algarve/pt"
+    },
+    "luzshoppingEs": {
+      "url": "https://www.luzshopping.com/es"
+    },
+    "rioshoppingES": {
+      "url": "https://www.rioshopping.com/es"
+    },
+    "rioshoppingESStage": {
+      "url": "https://www-stage.livat.com/valladolid/es"
+    },
+    "churchillsquareEN": {
+      "url": "https://www.churchillsquare.com/en"
+    },
+    "marShoppingnextjsserver": {
+      "url": "https://www-stage.livat.com/matosinhos/pt"
+    },
+    "945marketEN": {
+      "url": "https://www.945market.com/en"
+    },
+    "vimiliEn": {
+      "url":"https://ca-previewsite-prod-marketstreet.kindtree-aebff08b.westeurope.azurecontainerapps.io/en"
+    },
+    "avionSv": {
+      "url":"https://www.avionshopping.se/sv"
+    },
+    "sundsvallSv": {
+      "url":"https://www.livli.com/sundsvall/sv"
+    },
+    "kungensKurvaProdSv": {
+      "url":"https://www.livli.com/kungenskurva/sv"
+    },
+    "vasterasShoppingrod": {
+      "url":"https://www.livli.com/vasteras/sv"
+    }
+  }
+}
